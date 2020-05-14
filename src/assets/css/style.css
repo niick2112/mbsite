@@ -1254,8 +1254,8 @@ p {
   font-size: 28px; }
 
 .contact-area .single-info .info-content {
-  padding-left: 30px;
-  font-size: 28px; }
+  font-size: 28px;
+  padding-bottom: 20px; }
 
 .contact-area .footer-social li {
   display: inline-block;
@@ -1305,7 +1305,7 @@ p {
   position: absolute;
   top: 0;
   left: 0;
-  width: 60%; }
+  width: 100%; }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .mapouter {

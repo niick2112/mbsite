@@ -1123,6 +1123,7 @@ p {
   .contact-area {
     padding-top: 75px;
     padding-bottom: 80px;
+
     .single-info {
       position: relative;
       .info-icon {
@@ -1134,8 +1135,8 @@ p {
          } 
       }
       .info-content {
-        padding-left: 30px;
-        font-size: 28px 
+        font-size: 28px;
+        padding-bottom: 20px;
       }
     }
     .footer-social {
@@ -1189,7 +1190,7 @@ p {
   position: absolute;
   top: 0;
   left: 0;
-  width: 60%; }
+  width: 100%; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .mapouter {
       width: 100%; } }
