@@ -13,6 +13,7 @@
     "build:fonts": "copyfiles src/assets/fonts -f docs",
     "build:images": "copyfiles src/assets/images -f docs",
     "build:css": "node-sass src/assets/css -o docs/assets/css --output-style compressed",
+    "build:cssLocal": "node-sass src/assets/css -o src/assets/css",
     "build:js": "browserify src/assets/js/main.js -p tinyify -o docs/assets/js/main.js",
     "watch": "node-sass --watch src/assets/css -o src/assets/css"
   },

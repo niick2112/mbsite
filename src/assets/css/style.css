@@ -575,7 +575,7 @@ p {
   position: relative; }
 
 .navbar .navbar-brand img {
-  max-width: 112px; }
+  max-width: 140px; }
 
 .navbar .navbar-brand p {
   font-size: 14px; }
@@ -1241,50 +1241,42 @@ p {
 .contact-area {
   padding-top: 75px;
   padding-bottom: 80px; }
-
-.contact-area .single-info {
-  position: relative; }
-
-.contact-area .single-info .info-icon {
-  position: absolute;
-  top: 3px;
-  left: -15px; }
-
-.contact-area .single-info .info-icon i {
-  font-size: 28px; }
-
-.contact-area .single-info .info-content {
-  font-size: 28px;
-  padding-bottom: 20px; }
-
-.contact-area .footer-social li {
-  display: inline-block;
-  margin-left: 15px; }
-
-.contact-area .footer-social li a {
-  width: 35px;
-  height: 35px;
-  line-height: 40px;
-  text-align: center;
-  border-radius: 50%;
-  background-color: #fff5f1;
-  color: #646464;
-  font-size: 16px;
-  -webkit-box-shadow: 0px 5px 21px 0px rgba(235, 171, 220, 0.4);
-  -moz-box-shadow: 0px 5px 21px 0px rgba(235, 171, 220, 0.4);
-  box-shadow: 0px 5px 21px 0px rgba(235, 171, 220, 0.4);
-  -webkit-transition: all 0.4s ease-out 0s;
-  -moz-transition: all 0.4s ease-out 0s;
-  -ms-transition: all 0.4s ease-out 0s;
-  -o-transition: all 0.4s ease-out 0s;
-  transition: all 0.4s ease-out 0s; }
-
-.contact-area .footer-social li ahover {
-  background-color: #ebabdc;
-  color: #fff; }
-
-.contact-area li:first-child {
-  margin-left: 0; }
+  .contact-area .single-info {
+    position: relative; }
+    .contact-area .single-info .info-icon {
+      position: absolute;
+      top: 3px;
+      left: -15px; }
+      .contact-area .single-info .info-icon i {
+        font-size: 28px; }
+    .contact-area .single-info .info-content {
+      font-size: 28px;
+      padding-bottom: 20px; }
+  .contact-area .footer-social li {
+    display: inline-block;
+    margin-left: 15px; }
+    .contact-area .footer-social li a {
+      width: 35px;
+      height: 35px;
+      line-height: 40px;
+      text-align: center;
+      border-radius: 50%;
+      background-color: #fff5f1;
+      color: #646464;
+      font-size: 16px;
+      -webkit-box-shadow: 0px 5px 21px 0px rgba(235, 171, 220, 0.4);
+      -moz-box-shadow: 0px 5px 21px 0px rgba(235, 171, 220, 0.4);
+      box-shadow: 0px 5px 21px 0px rgba(235, 171, 220, 0.4);
+      -webkit-transition: all 0.4s ease-out 0s;
+      -moz-transition: all 0.4s ease-out 0s;
+      -ms-transition: all 0.4s ease-out 0s;
+      -o-transition: all 0.4s ease-out 0s;
+      transition: all 0.4s ease-out 0s; }
+      .contact-area .footer-social li ahover {
+        background-color: #ebabdc;
+        color: #fff; }
+  .contact-area li:first-child {
+    margin-left: 0; }
 
 /*===========================
          9.MAP css 
@@ -1492,3 +1484,27 @@ p {
 .back-to-top:hover {
   color: #ebabdc;
   background-color: #fff; }
+
+.footer-social li {
+  display: inline-block;
+  margin-left: 15px; }
+  .footer-social li a {
+    width: 35px;
+    height: 35px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #fff5f1;
+    color: #646464;
+    font-size: 16px;
+    -webkit-box-shadow: 0px 5px 21px 0px rgba(235, 171, 220, 0.4);
+    -moz-box-shadow: 0px 5px 21px 0px rgba(235, 171, 220, 0.4);
+    box-shadow: 0px 5px 21px 0px rgba(235, 171, 220, 0.4);
+    -webkit-transition: all 0.4s ease-out 0s;
+    -moz-transition: all 0.4s ease-out 0s;
+    -ms-transition: all 0.4s ease-out 0s;
+    -o-transition: all 0.4s ease-out 0s;
+    transition: all 0.4s ease-out 0s; }
+    .footer-social li ahover {
+      background-color: #ebabdc;
+      color: #fff; }
